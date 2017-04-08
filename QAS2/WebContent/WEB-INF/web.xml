@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0"
+
+>
+<servlet>
+	<servlet-name>SearchList</servlet-name>
+	<servlet-class>servlet.SearchListServlet</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>DeleteServlet</servlet-name>
+	<servlet-class>servlet.DeleteServlet</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>AdditionServlet</servlet-name>
+	<servlet-class>servlet.AdditionServlet</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>ModificationServlet</servlet-name>
+	<servlet-class>servlet.ModificationServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>SearchList</servlet-name>
+	<url-pattern>/SearchList</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>DeleteServlet</servlet-name>
+	<url-pattern>/DeleteServlet</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>AdditionServlet</servlet-name>
+	<url-pattern>/AdditionServlet</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ModificationServlet</servlet-name>
+	<url-pattern>/ModificationServlet</url-pattern>
+</servlet-mapping>
+
+</web-app>
